@@ -1,0 +1,17 @@
+.nacional{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    
+}
+.destino1{
+    border: 1px solid black;
+    padding-bottom: 10px;
+}
+.btninfo{
+    background-color: aqua;
+}
+.btnhotel{
+    background-color: lightcoral;
+}
