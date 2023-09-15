@@ -11,7 +11,25 @@
 }
 .btninfo{
     background-color: aqua;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+}
+.btninfo:hover{
+    background-color: lightgray;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
 }
 .btnhotel{
     background-color: lightcoral;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+}
+.btnhotel:hover{
+    background-color: lightgray;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
 }
