@@ -1,35 +1,94 @@
-.nacional{
-    padding: 10px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 20px;
+
+/*Pagina principal*/
+.encabezado1{
+    grid-area: encabezado1;
     
 }
-.destino1{
-    border: 1px solid black;
+
+.aside1{
+    grid-area: aside1;
+    background-color: lightgreen;
+    margin-right: 20%;
+    padding-top: 5px;
+}
+
+.grid-argentina{
+    display: grid;
+    grid-template-areas: 'encabezado1 encabezado1 encabezado1 encabezado1'
+                         'aside1  . . .'
+                         'aside1  . . .';
+    gap: 5px;
+}
+
+.oferta1{
     padding-bottom: 10px;
+    border: 1px solid black;
+    text-align: center;
 }
-.btninfo{
-    background-color: aqua;
-    width: 40%;
-    height: 30px;
-    font-size: 20px;
-}
-.btninfo:hover{
-    background-color: lightgray;
-    width: 40%;
-    height: 30px;
-    font-size: 20px;
-}
+
 .btnhotel{
     background-color: lightcoral;
     width: 40%;
     height: 30px;
     font-size: 20px;
 }
+
 .btnhotel:hover{
     background-color: lightgray;
     width: 40%;
     height: 30px;
     font-size: 20px;
+}
+.btninfo{
+    background-color: aqua;
+    width: 30%;
+    height: 22px;
+    font-size: 12px;
+}
+.btninfo:hover{
+    background-color: lightgray;
+    width: 30%;
+    height: 22px;
+    font-size: 12px;
+}
+
+/*pagina de informacion lugares*/
+
+.img-titulo{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.texto-titulo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 2px;
+}
+
+/*pagina hoteles*/
+
+.grid-hoteles{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    border: 1px solid black;
+    
+}
+.btnhotel{
+    background-color: aqua;
+    width: 40%;
+    height: 40px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.btnhotel:hover{
+    background-color: lightgray;
+    width: 40%;
+    height: 40px;
+    font-size: 30px;
+    border: 1px solid black;
 }
