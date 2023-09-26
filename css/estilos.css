@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*Pagina principal*/
 .encabezado1{
@@ -18,6 +23,7 @@
                          'aside1  . . .'
                          'aside1  . . .';
     gap: 5px;
+    padding: 30px;
 }
 
 .oferta1{
@@ -91,4 +97,79 @@
     height: 40px;
     font-size: 30px;
     border: 1px solid black;
+}
+
+/* comienza el footer */
+
+.footer__container{
+    width: 100%;
+    background-color: rgb(70, 70, 243);
+}
+
+.footer__container .grupo__1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.logo__viaje{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 250px;
+}
+
+.box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.redes__sociales i{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0a0027;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 300ms ease;
+}
+
+.redes__sociales i:hover{
+    color: aqua;
+}
+
+.grupo__2{
+    background-color: #0a0027;
+    padding: 15px 10px;
+    text-align: center;
+    color: #efefef;
+}
+
+@media screen and (max-width:800px){
+    .footer__container .grupo__1{
+        width: 70%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
 }
