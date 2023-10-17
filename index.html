@@ -2,101 +2,142 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
-        
-    <!-- iconos fontawesome -->
-    <script src="https://kit.fontawesome.com/04c0677df6.js" crossorigin="anonymous"></script>
-    
-    <!-- titulo -->
-    <title>TPO TURISMO</title>
+    <title>proyecctofinal</title>
+
+<!--CSS-->
+    <link rel="stylesheet" href="estilo.css">
+
+ <!-- iconos fontawesome -->
+ <script src="https://kit.fontawesome.com/04c0677df6.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <div class="grid-argentina">
-        
+    <header class="header">
+        <div class="logo">
+            <h2>ViajesArg</h2>
+        </div>
+         
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Viajes</a></li>
+                <li><a href="./page/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
 
+        <a href="#" class="btn"><button>Atencion</button></a>
+
+        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+        
+            <div class="overlay-content">
+                <a href="#">Servicios</a>
+                <a href="#">Viajes</a>
+                <a href="./page/contacto.html">Contactanos</a>
+                <a href="#">about</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- header - banner -->
+
+    <div class="banner-container">  
+        <p class="hero-subtitulo">Conoce màs sobre nuestro pais.</p>
+        <h1 class="hero-titulo">Viaja por Argentina</h1>
+        <p>Viajes por tierra & Aire.</p>
+    </div>
+
+     <!-- comienzo del main -->
+
+     <div class="grid-argentina">
+    
         <div class="encabezado1"><center><h2>DESTINOS EN ARGENTINA</h2></center></div>
         
         <div class="aside1">
             <center>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
-            <img src="img/bariloche1.jpg" alt="paisaje" width="70%"><br>
-                <a href="bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="70%"><br>
+                <a href="page/bariloche.html" target="_blank"><button type="button" class="btninfo" title="Informacion de Bariloche">Bariloche</button></a></a><br>
             </center>
         </div>
 
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
         
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
         
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
         
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
         
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
         
         <div class="oferta1">
-            <img src="img/bariloche1.jpg" alt="paisaje" width="100%">
+            <img src="imagenes/bariloche1.jpg" alt="paisaje" width="100%">
             <center><h3>Vivi Bariloche</h3></center>
             <p>En Bariloche la naturaleza nos llama a disfrutar.</p>
             <p>Descubri todas las sensaciones que despierta la naturaleza</p>
             <p>Disfruta de paseos imperdibles en lugares magicos</p>
-            <a href="hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
+            <a href="page/hotelesbariloche.html" target="_blank"><button type="button" class="btnhotel" title="Hoteles en Bariloche">Hoteles</button></a>
         </div>
-
     </div>
 
-<!-- comienzo del footer -->
+
+    <!-- footer -->
+
     <footer class="footer__container container">
         <div class="grupo__1">
             <div class="logo de la empresa">
                 <figure>
                     <a href="#">
-                        <img src="./img/undraw_aircraft_re_m05i.svg" class="logo__viaje" alt="logo de la empresa">
+                        <img src="./imagenes/undraw_aircraft_re_m05i.svg" class="logo__viaje" alt="logo de la empresa">
                     </a>
                 </figure>
             </div>
@@ -120,5 +161,8 @@
             <small>&copy; 2023 <b>Destinos Argentina - Todos los Derechos Reservados.</b></small>
         </div>
     </footer>
+
+
+    <script type src="animaciones.js"></script>
 </body>
 </html>
